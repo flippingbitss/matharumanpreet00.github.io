@@ -1,0 +1,183 @@
+#product {
+    margin:5px;
+
+    width:30%;
+    height:30%;
+    
+      float:left;  
+}
+
+#productImg {
+    width:100%;
+    height:100%;
+      
+   
+}
+
+#productInfo p{   
+    float:left;
+    margin-left:5%;
+    margin-right:auto;
+    text-align:center;
+    font-size:1em; 
+    font-weight:lighter;   
+    width:50%;
+    height:10%;
+    
+       margin-top:1em;
+}
+
+#productInfo h3{ 
+      float:left;
+    
+    text-align:center;
+    font-size:2em;    
+    width:68.5%;
+    height:1em;
+  
+}
+
+hr {
+    clear:both;
+    width:100%;
+}
+h3{
+    font-family:'Archivo Narrow',sans-serif;
+    font-size:1em;
+    text-align:center;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+#descContent {
+   
+    padding-top:1em;
+width:100%;
+height:auto;
+overflow:hidden;
+}
+
+#UIStuff
+{
+    float:left;
+    
+    padding:1em;
+    margin-left:40%;
+
+    width:40%;
+   
+}
+
+select option
+{
+    margin-left:1em;
+}
+select,button
+{
+    margin-left:2em;
+}
+
+#brandOutput
+{
+    font-size:1em;
+    color:red;
+    font-weight:bold;
+}
+
+
+#price
+{
+    font-size:2em;
+    font-weight:bold;
+    text-align:center;
+}
+
+
+.foot{
+     width:100%;
+    height:1em;   
+    text-align:center;
+      padding-top:0.8em;
+}
+
+
+/*********************************************/
+
+
+.nav{
+  
+
+}
+
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url(images/psbackground.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:65%;
+  bottom:2%;
+ left:-28%;
+  right:90%;
+  width:30%;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.neighborhood-guides {
+    background-color:#efefef;
+ 
+ 
+}
+
+.neighborhood-guides h2{ 
+    color:#393c3d;
+    font-size :24px;
+
+    }
+    
+.neighborhood-guides p{ 
+        font-size :15px;
+ margin-bottom:13px;
+
+    }
