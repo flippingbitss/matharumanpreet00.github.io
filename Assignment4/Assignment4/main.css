@@ -1,0 +1,11 @@
+﻿#resetScore , #resetSpeed{
+    float:left;
+    width:100px;
+    height:30px;
+    text-align:center;
+    background-color:navy;
+    color:white;
+    opacity:.7;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:.75em;
+} 

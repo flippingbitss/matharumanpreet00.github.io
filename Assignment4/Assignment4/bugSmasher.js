@@ -28,10 +28,9 @@ var bug = {
 };
 var bugsCaught = 0;
 var bugDelay = 2000;
-// Handle keyboard controls
-//setInterval(bugMovement, bugDelay);
 
 
+// checking mouse click and collision with bug
 canvas.addEventListener("mousedown", function (e) {
     if (bug.x <= (e.pageX) && bug.y <= (e.pageY) && e.pageX <= (bug.x + 70) && e.pageY <= (bug.y + 70)) {
         bugMovement();
@@ -51,6 +50,20 @@ var bugMovement = function () {
 };
 
 
+function resetParam(param) {
+    console.log("function called");
+    switch (param.toString()) {
+        case 'Score':
+            this.bugsCaught = 0;
+            console.log("score called");
+            break;
+        case 'Speed':
+            this.bugDelay = 2000;
+            console.log("speed called");
+            break;
+    }
+}
+
 
 // Draw everything
 var render = function () {
@@ -67,22 +80,17 @@ var render = function () {
     ctx.font = "24px Helvetica";
     ctx.textAlign = "left";
     ctx.textBaseline = "top";
-    ctx.fillText("Bugs caught: " + bugsCaught, 32, 32);
+    ctx.fillText("Bugs caught: " + bugsCaught, 10, 10);
 };
 
 // The main game loop
 var main = function () {
     var now = Date.now();
     var delta = now - then;
-
     if (delta > bugDelay) {
         bugMovement();
         then = now;
-
-    }
-
-
-
+    }   
     render();
     // Request to do this again ASAP
     requestAnimationFrame(main);
@@ -94,6 +102,5 @@ requestAnimationFrame = w.requestAnimationFrame || w.webkitRequestAnimationFrame
 bugMovement();
 // Let's play this game!
 var then = Date.now();
-
 main();
 
