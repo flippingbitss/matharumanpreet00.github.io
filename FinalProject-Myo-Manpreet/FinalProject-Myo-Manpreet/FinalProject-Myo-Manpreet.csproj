@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ABAC786F-D154-4363-8E99-9569C37FE080}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FinalProject_Myo_Manpreet</RootNamespace>
+    <AssemblyName>FinalProject-Myo-Manpreet</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ContactForm.html" />
+    <Content Include="Content\homeImages\Home1\details.txt" />
+    <Content Include="Content\homeImages\Home1\IS1fkg6bei2uf90000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\IS1fw5q8tw7crd1000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\IS1jr8866c3zg11000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\IS1vsx5utpzd0i1000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\IS1vw8te3rjhoa0000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\IS1zzhhfukrbpn1000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\IS5mwd7424p8fn1000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\IS5u6baztyepin1000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\IS9ppdqsbx6qjq0000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\ISdg9qv79xuddp0000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\ISdkguibnwx7z11000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\ISdkwi45ly66on1000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\ISh3qdokpf0hfn1000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\IShrgik5l754q00000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\IShrsb3h9j7w7j0000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\ISleh1nu8j3sfn1000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\ISlelk8zmc1o991000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\ISlex554ps18ww0000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\ISli89ymz9gov11000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\ISlmzwh8v7dlbm1000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\ISlquzvy3gxuhn1000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\ISp1aqk9rpev8q0000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\ISp90gcfvmhjoh0000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\ISppgvvq3hnvj00000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\ISpt7r1fm6imsk1000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\ISpx6lvagka35q1000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\ISt4vzx9zjn74z0000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\ISt4ze0p5alxsk1000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\IStc1iy1ubcrz11000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\IStg4j4bxdgdy11000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\IStgk7q4vfpbnn1000000000.jpg" />
+    <Content Include="Content\homeImages\Home1\ISto2vy3x0p4j11000000000.jpg" />
+    <Content Include="Content\homeImages\Home2\Details.txt" />
+    <Content Include="Content\homeImages\Home2\IS95261vnzv9cw1000000000.jpg" />
+    <Content Include="Content\homeImages\Home2\ISdw9tei52x9dw1000000000.jpg" />
+    <Content Include="Content\homeImages\Home2\ISlqy6okedb4bw1000000000.jpg" />
+    <Content Include="Content\homeImages\Home2\ISp1qumuxgefbw1000000000.jpg" />
+    <Content Include="Content\homeImages\Home2\ISx7s6512pmcbw1000000000.jpg" />
+    <Content Include="Content\homeImages\Home3\details.txt" />
+    <Content Include="Content\homeImages\Home3\IS17yh6wj9axu90000000000.jpg" />
+    <Content Include="Content\homeImages\Home3\IS1nu9akualt710000000000.jpg" />
+    <Content Include="Content\homeImages\Home3\IS1rx61rmlv1z80000000000.jpg" />
+    <Content Include="Content\homeImages\Home3\IS5296qs4efju90000000000.jpg" />
+    <Content Include="Content\homeImages\Home3\IS9dgmdd0kv1710000000000.jpg" />
+    <Content Include="Content\homeImages\Home3\ISh7lc7sb2fgm90000000000.jpg" />
+    <Content Include="Content\homeImages\Home3\IShj2679spqru90000000000.jpg" />
+    <Content Include="Content\homeImages\Home3\IShrk12nee0lq80000000000.jpg" />
+    <Content Include="Content\homeImages\Home3\ISlauclhwtst690000000000.jpg" />
+    <Content Include="Content\homeImages\Home3\IStgsxrdq2dw710000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\Details.txt" />
+    <Content Include="Content\homeImages\Home4\IS1b1fdzzgk1p80000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\IS5eafrok8ye980000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\IS5ms2c9jkncp80000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\IS5uqe62j7w3a80000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\IS95i25c2bzea80000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\IS99l3bl5d31980000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\IS9p13qy3c1q980000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\ISd0tqo8nf41a80000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\ISdg9q3mle2qa80000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\ISdov4kssvieo20000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\ISdsueufnsv9p80000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\IShn53ec8x0wo80000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\IShvnqyw69qt490000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\ISlqe3s1toe9980000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\ISlu5zpv2724930000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\ISlywqcmr047p80000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\ISp16rqbcshk980000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\ISpt7fwic59to80000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\ISt08b827fa1930000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\ISt4z2vsv8c4p80000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\IStcxeplvvkv980000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\IStwgfa8xwm6980000000000.jpg" />
+    <Content Include="Content\homeImages\Home4\ISxbzy6cqidc930000000000.jpg" />
+    <Content Include="Content\homeImages\Home5\Details.txt" />
+    <Content Include="Content\homeImages\Home5\IS133ni74y3fpl1000000000.jpg" />
+    <Content Include="Content\homeImages\Home5\IS1jjmxk2x14ql1000000000.jpg" />
+    <Content Include="Content\homeImages\Home5\IS5uaawul05fql1000000000.jpg" />
+    <Content Include="Content\homeImages\Home5\IS5ydb24p291pl1000000000.jpg" />
+    <Content Include="Content\homeImages\Home5\IS995z0e86ccpl1000000000.jpg" />
+    <Content Include="Content\homeImages\Home5\IS9plyfr65a1ql1000000000.jpg" />
+    <Content Include="Content\homeImages\Home5\ISdkwmznr9fnpl1000000000.jpg" />
+    <Content Include="Content\homeImages\Home5\IShf7bjkcek9pl1000000000.jpg" />
+    <Content Include="Content\homeImages\Home5\ISlaiz2hxipvol1000000000.jpg" />
+    <Content Include="Content\homeImages\Home5\ISlelg5i4hes6l1000000000.jpg" />
+    <Content Include="Content\homeImages\Home5\ISlqyyhuvhnkpl1000000000.jpg" />
+    <Content Include="Content\homeImages\Home5\ISp1qmg4flqvpl1000000000.jpg" />
+    <Content Include="Content\homeImages\Home5\ISpl9n1rgms6pl1000000000.jpg" />
+    <Content Include="Content\homeImages\Home5\IStchafeyot6ql1000000000.jpg" />
+    <Content Include="Content\homeImages\Home5\IStgkbln1rxsol1000000000.jpg" />
+    <Content Include="Content\homeImages\Home5\IStw0b010qvhpl1000000000.jpg" />
+    <Content Include="Content\homeImages\Home5\ISx7syyajtyspl1000000000.jpg" />
+    <Content Include="Content\homeImages\Home5\ISxrbzjxku04pl1000000000.jpg" />
+    <Content Include="Content\icons\bing.png" />
+    <Content Include="Content\icons\delicious.png" />
+    <Content Include="Content\icons\digg-1.png" />
+    <Content Include="Content\icons\dribbble.png" />
+    <Content Include="Content\icons\email-1.png" />
+    <Content Include="Content\icons\evernote.png" />
+    <Content Include="Content\icons\facebook.png" />
+    <Content Include="Content\icons\flickr-3.png" />
+    <Content Include="Content\icons\forrst.png" />
+    <Content Include="Content\icons\lastfm.png" />
+    <Content Include="Content\icons\linkedin.png" />
+    <Content Include="Content\icons\reddit.png" />
+    <Content Include="Content\icons\rss.png" />
+    <Content Include="Content\icons\skype.png" />
+    <Content Include="Content\icons\stumbleupon.png" />
+    <Content Include="Content\icons\technorati.png" />
+    <Content Include="Content\icons\twitter-2.png" />
+    <Content Include="Content\icons\vimeo.png" />
+    <Content Include="Content\icons\windows.png" />
+    <Content Include="Content\icons\youtube-2.png" />
+    <Content Include="Content\images\agentPic.jpg" />
+    <Content Include="Content\images\back.jpg" />
+    <Content Include="Content\images\background.jpg" />
+    <Content Include="Content\images\building.jpg" />
+    <Content Include="Content\images\listingBanner.jpg" />
+    <Content Include="Content\images\logo.png" />
+    <Content Include="Content\images\logo1.png" />
+    <Content Include="Content\SliderContent\jquery.bxslider.css" />
+    <Content Include="Content\SliderContent\jquery.bxslider.js" />
+    <Content Include="Content\SliderContent\jquery.bxslider.min.js" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\SliderContent\bower.json" />
+    <Content Include="Content\SliderContent\readme.md" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="index.html" />
+    <Content Include="Content\StyleSheets\main.css" />
+    <Content Include="Content\StyleSheets\reset.css" />
+    <Content Include="propdetail1.html" />
+    <Content Include="propList.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="HTML Pages\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57462</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:57462/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

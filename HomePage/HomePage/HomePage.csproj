@@ -57,9 +57,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="blog.HTML" />
     <Content Include="assignments.HTML" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\placeholder.png" />
+    <Content Include="images\realEstateLogo.png" />
     <Content Include="index.HTML" />
     <Content Include="Stylesheets\bootstrap.css" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\css\font-awesome.css" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\css\font-awesome.min.css" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\HELP-US-OUT.txt" />
+    <Content Include="Stylesheets\font-awesome.css" />
     <Content Include="Stylesheets\main.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -67,6 +76,37 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Stylesheets\font-awesome-4.4.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\fonts\FontAwesome.otf" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\less\animated.less" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\less\bordered-pulled.less" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\less\core.less" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\less\fixed-width.less" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\less\font-awesome.less" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\less\icons.less" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\less\larger.less" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\less\list.less" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\less\mixins.less" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\less\path.less" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\less\rotated-flipped.less" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\less\stacked.less" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\less\variables.less" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\scss\font-awesome.scss" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\scss\_animated.scss" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\scss\_bordered-pulled.scss" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\scss\_core.scss" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\scss\_fixed-width.scss" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\scss\_icons.scss" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\scss\_larger.scss" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\scss\_list.scss" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\scss\_mixins.scss" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\scss\_path.scss" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\scss\_rotated-flipped.scss" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\scss\_stacked.scss" />
+    <Content Include="Stylesheets\font-awesome-4.4.0\scss\_variables.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

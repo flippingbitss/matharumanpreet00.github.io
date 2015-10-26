@@ -82,8 +82,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assignment3.HTML" />
-    <Content Include="JavaScript\validateForm2.js" />
-    <Content Include="JavaScript\ValidateForm.js" />
     <Content Include="Stylesheets\main.css" />
     <Content Include="Web.config" />
   </ItemGroup>

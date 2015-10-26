@@ -82,12 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assignment4.html" />
-    <Content Include="bug.png" />
     <Content Include="bugSmasher.js" />
-    <Content Include="game.js" />
-    <Content Include="leaf.jpg" />
-    <Content Include="leaf1.jpg" />
-    <Content Include="main.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

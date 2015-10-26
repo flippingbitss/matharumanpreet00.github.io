@@ -1,0 +1,6 @@
+C:\Users\Matharu\Desktop\SC--Website\SC--Website\bin\SC--Website.dll.config
+C:\Users\Matharu\Desktop\SC--Website\SC--Website\bin\SC--Website.dll
+C:\Users\Matharu\Desktop\SC--Website\SC--Website\bin\SC--Website.pdb
+C:\Users\Matharu\Desktop\SC--Website\SC--Website\obj\Debug\SC--Website.csprojResolveAssemblyReference.cache
+C:\Users\Matharu\Desktop\SC--Website\SC--Website\obj\Debug\SC--Website.dll
+C:\Users\Matharu\Desktop\SC--Website\SC--Website\obj\Debug\SC--Website.pdb

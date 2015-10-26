@@ -1,0 +1,105 @@
+﻿.nav{
+  /*background-color: red;*/
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 50px;
+    display:block;
+}
+
+.navbar-fixed-bottom{
+    /*background-color: red;*/
+    position:relative;
+}
+
+.navbar-fixed-bottom p{
+    position: relative;
+    bottom:0;
+  
+   
+}
+
+#logo{
+       padding: 0;
+       margin: 0;
+       height: auto;
+       width: auto;
+}
+
+.nav ul{
+    
+}
+
+
+.container {
+    height: 75px;
+    
+}
+
+.nav li {
+  display: inline-block;
+  margin-top: 25px;
+  height: 50px;
+  width: 142px;
+  text-align: center;
+}
+
+.nav li:hover {
+    background-color: #045070;
+    color: white;
+   
+}
+
+
+
+.nav li a:hover {
+     text-decoration: none;
+     color: white;
+     
+}
+
+.jumbotron {
+  background-image:url('http://wallpaperstock.net/download-thumb.php?filename=clean-blue-background-wallpapers_43569_2560x1440.jpg&max_height=600&max_width=1066.6666666666667&top=0&left=0&width=2560&height=1439');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+/*  Added CSS    */
+
+.img-responsive {
+    width:70%;
+    height:70%
+}
+
+.verticalAlign{
+   margin-top:5em;
+   margin-bottom:auto;
+}
+
+.col-md-12{
+    margin-top:20px;
+}

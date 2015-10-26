@@ -10,3 +10,9 @@ C:\Users\Matharu\Desktop\Web Everything\HomePage\HomePage\bin\HomePage.pdb
 C:\Users\Matharu\Desktop\Web Everything\HomePage\HomePage\obj\Debug\HomePage.csprojResolveAssemblyReference.cache
 C:\Users\Matharu\Desktop\Web Everything\HomePage\HomePage\obj\Debug\HomePage.dll
 C:\Users\Matharu\Desktop\Web Everything\HomePage\HomePage\obj\Debug\HomePage.pdb
+C:\Users\Matharu\Desktop\Web Everything new\HomePage\HomePage\bin\HomePage.dll.config
+C:\Users\Matharu\Desktop\Web Everything new\HomePage\HomePage\bin\HomePage.dll
+C:\Users\Matharu\Desktop\Web Everything new\HomePage\HomePage\bin\HomePage.pdb
+C:\Users\Matharu\Desktop\Web Everything new\HomePage\HomePage\obj\Debug\HomePage.csprojResolveAssemblyReference.cache
+C:\Users\Matharu\Desktop\Web Everything new\HomePage\HomePage\obj\Debug\HomePage.dll
+C:\Users\Matharu\Desktop\Web Everything new\HomePage\HomePage\obj\Debug\HomePage.pdb

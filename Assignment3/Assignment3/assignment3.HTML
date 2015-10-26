@@ -7,10 +7,8 @@
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
     <link rel="stylesheet" href="Stylesheets/main.css">
-    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
-    <script src="JavaScript/ValidateForm.js" type="text/javascript"></script>
-    <!--<script src="JavaScript/validateForm2.js"></script>-->
-  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
@@ -46,45 +44,28 @@
                 <h2 class="text-center">Member Registration</h2>
                 <h3 class="text-center">Please complete all the fields below:</h3>
             </div>
-           
+
             <div class="modal-body">
-                <div class="row center-block">
-                    <form action="#" class="col-md-10" name="regForm" >
+                <div class="row">
+                    <form class="col-md-8">
 
                         <label for="fName" class="col-sm-4">First Name</label>
-                        <input type="text" class="form-control" name="fName"  placeholder="First Name" onblur="checkEmpty(fName)"  />
+                        <input type="text" class="form-control" placeholder="First Name" />
 
                         <label for="lName" class="col-sm-4">Last Name</label>
-                        <input type="text" class="form-control" name="lName" placeholder="Last Name" onblur="checkEmpty(lName)" />
+                        <input type="text" class="form-control" placeholder="Last Name" />
 
                         <label for="address" class="col-sm-4">Address</label>
-                        <input type="text" class="form-control" name="address" placeholder="Address" onblur="checkEmpty" />
+                        <input type="text" class="form-control" placeholder="Address" />
 
                         <label for="city" class="col-sm-4">City</label>
-                        <input type="text" class="form-control" name="city" placeholder="City" onblur="checkEmpty(city)" />
+                        <input type="text" class="form-control" placeholder="City" />
 
                         <label for="pCode" class="col-sm-4">Postal Code</label>
-                        <input type="text" class="form-control" name="pCode" placeholder="Postal Code" />
+                        <input type="text" class="form-control" placeholder="Postal Code" />
 
-                        <label for="province" class="col-sm-4">Province</label>
-                        <input type="text" class="form-control" name="province" placeholder="Province"  />
 
-                        <label for="age" class="col-sm-4">Age</label>
-                        <input type="text" class="form-control" name="age" placeholder="Age"  />
 
-                        <label for="pass" class="col-sm-4">Password</label>
-                        <input type="password" class="form-control" name="password" placeholder="Password"  />
-
-                        <label for="confirm" class="col-sm-4">Confirm</label>
-                        <input type="password" class="form-control" name="confirm" placeholder="Confirm Password"  />
-
-                        <label for="" class="col-sm-4">Email</label>
-                        <input type="text" class="form-control" id="email" name="email" placeholder="Email"  />
-
-                        <div class="row">
-                            <input type="reset" class="btn btn-primary btn-lg pull-right " value="Clear Form"  />
-                            <input type="submit" class="btn btn-primary btn-lg pull-right " value="Register" />
-                        </div>
                     </form>
                 </div>
             </div>
@@ -92,7 +73,25 @@
     </div>
 
 
- 
+    <div class="row">
+        <form class="col-md-4 center-block">
+            <label for="fName">First Name:</label><input type="text" name="fName" />
+            <label for="lName">Last Name:</label><input type="text" name="lName" />
+            <label for="address">Address:</label><input type="text" name="address" />
+            <label for="city">City:</label><input type="text" name="city" />
+            <label for="pCode">Postal Code:</label>  <input type="text" name="pCode" />
+            <label for="province">Province:</label> <input type="text" name="province" />
+            <label for="age">Age:</label><input type="text" name="age" />
+            <label for="pass">Password:</label><input type="text" name="pass" />
+            <label for="passConfirm">Confirm:</label> <input type="text" name="passConfirm" />
+            <label for="email">Email:</label><input type="text" name="email" />
+
+            <input type="button" name="register" value="Register Now" />
+            <input type="reset" name="clrForm" value="Clear Form" />
+        </form>
+
+    </div>
+
 
 
 </body>
