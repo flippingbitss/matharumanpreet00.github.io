@@ -61,7 +61,11 @@
     <Content Include="assignments.HTML" />
     <Content Include="images\logo.png" />
     <Content Include="images\placeholder.png" />
+    <Content Include="images\platformer.JPG" />
+    <Content Include="images\platformer.png" />
     <Content Include="images\realEstateLogo.png" />
+    <Content Include="images\space.JPG" />
+    <Content Include="images\space1.png" />
     <Content Include="index.HTML" />
     <Content Include="Stylesheets\bootstrap.css" />
     <Content Include="Stylesheets\font-awesome-4.4.0\css\font-awesome.css" />
